@@ -1,25 +1,17 @@
 {
-  "name": "my-woods_backend",
+  "name": "mywoods-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
     "dev": "nodemon server.js",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geetanjlikumari14/my-woods_backend.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/geetanjlikumari14/my-woods_backend/issues"
-  },
-  "homepage": "https://github.com/geetanjlikumari14/my-woods_backend#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "dotenv": "^17.4.2",
