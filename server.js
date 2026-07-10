@@ -97,7 +97,7 @@ const woodRoutes = require("./routes/woods");
 app.use("/api/woods", woodRoutes); // every route in the file is prefixed with /api/woods
 
 
-const userRoutes = require("./routes/users");
+const userRoutes = require("./routes/user");
 app.use("/api/users", userRoutes); // every route in the file is prefixed with /api/woods
 
 
