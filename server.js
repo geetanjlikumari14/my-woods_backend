@@ -62,14 +62,19 @@ dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 
 const express = require("express");
+const cors = require('cors');
 const mongoose = require("mongoose");
+
+
 
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
 
 
 // import the Express library
-const app = express();              // create an app
+const app = express();        
+app.use(cors());
+      // create an app
 
 app.use(express.json()); // <-- parses JSON request bodies into req.body
 // example 1
